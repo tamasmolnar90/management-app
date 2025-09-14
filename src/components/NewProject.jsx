@@ -16,9 +16,9 @@ export default function NewProject() {
         </li>
       </menu>
       <div>
-        <Input label="Title" />
+        <Input label="Title" type="text" />
         <Input label="Description" textarea={true} />
-        <Input label="Deu Date" />
+        <Input label="Deu Date" type="date" />
       </div>
     </div>
   );
